@@ -1,0 +1,663 @@
+ *{
+    scroll-behavior: smooth;
+    
+}
+
+
+body{
+    background:linear-gradient(to right,#34e89e, #0f3443);
+      overflow-y: scroll;
+
+}
+.vishva{
+    font-weight: bold;
+    position: absolute;
+    top: 90px;
+    left:570px;
+    color: white;
+    font-size: 80px;
+    font-family: cursive;
+    animation: vis;
+    animation-duration: 2s;
+}
+header{
+background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+    text-align: center;
+    justify-content: center;
+    padding:150px;
+
+}
+@keyframes vis {
+    from{color: #222;  top:0px; left:570px}
+    to{top:90px; left: 570px;} 
+    
+}
+body{
+    margin: 0;
+}
+.job{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+     top: 190px;
+    left:570px;
+    animation: jo;
+    animation-duration: 2s;
+}
+@keyframes jo {
+    from{ color: #222;top: 50px; left:570px}
+    to{top:190px; left: 570px;} 
+}
+nav{
+    background: #333;
+    gap: 30px;
+    text-align: center;
+    padding:10px;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    gap: 300px;
+    padding: 30px; /*   only works to make links bigger */
+    font-size: 20px;
+    font-family: cursive
+}
+.bout{
+    width: 1100px;
+    height:200px;
+    color: aliceblue;
+}
+
+.project {
+    
+        border-left: 5px solid #222;
+        padding-left: 12px;
+        margin: 15px;
+        }
+
+footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        }
+.contactz{
+   width: 1280px;
+    height: 250px;
+    background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center ;
+    font-family: cursive;
+    position: relative;
+    animation: con 2s infinite ease;
+}
+@keyframes con {
+    0%{
+        top: 0px;
+    } 
+    50%{
+        top:20px;
+    }   
+    100%{
+        top:0px;
+    }
+    
+}
+.about1{
+    width: 1280px;
+    height: 200px;
+background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.job{
+    font-weight: bold;
+    margin-left: 50px;
+    font-family: cursive;
+}
+.job::after {
+  content: "";
+  animation: changeWords 16s linear infinite;
+}
+
+@keyframes changeWords {
+   0%   { content: "D "; }
+  2.25%   { content: "De "; }
+  4.5%   { content: "Des"; }
+  6.75%   { content: "Desi "; }
+  9%   { content: "Desig"; }
+  11.25%   { content: "Design "; }
+  13.5%   { content: "Designe "; }
+  18%   { content: "Designer"; }
+  22.25% { content: "Designe "; }
+  24.5%   { content: "Design"; }
+  26.75%   { content: "Desig "; }
+  29%   { content: "Desi "; }
+  31.25%   { content: "Des "; }
+  33.5%   { content: "De "; }
+  35.75%   { content: "D "; }
+  37.75%   { content: "De "; }
+  39.75%   { content: "Dev "; }
+  41.75%   { content: "Deve "; }
+  43.75%   { content: "Devel "; }
+  45.75%   { content: "Develo "; }
+  47.75%   { content: "Develop "; }
+  49.75%   { content: "Develope "; }
+  51.75%   { content: "Developer "; }
+  55.75%   { content: "Develope "; }
+  57.75%   { content: "Develop "; }
+  59.75%   { content: "Develo "; }
+  61.75%   { content: "Devel "; }
+  63.75%   { content: "Deve "; }
+  63.75%   { content: "Dev "; }
+  65.75%   { content: "De "; }
+  67.75%   { content: "D "; }
+  69.75%  { content: "  "; }
+  71.75%   { content: "S "; }
+  73.75%   { content: "St "; }
+  75.75%   { content: "Stu "; }
+  77.75%   { content: "Stud "; }
+  79.75%   { content: "Stude "; }
+  81.75%   { content: "Studen "; }
+  83.75%   { content: "Student "; }
+  87.75%   { content: "Studen "; }
+  89.75%   { content: "Stude "; }
+  91.75%   { content: "Stud "; }
+  93.75%   { content: "Stu "; }
+  95.75%   { content: "St "; }
+  97.75%   { content: "S"; } 
+  100%{content:""}
+}
+
+
+.job {
+  font-size: 40px;
+  font-weight: bold;
+}
+.nig{
+    font-size: large;
+    font-family: cursive;
+    position: relative;
+    animation: nigg 2s ease  infinite;
+}
+@keyframes nigg {
+
+    0%{
+        top: 0px;
+    } 
+    50%{
+        top:20px;
+    }   
+    100%{
+        top:0px;
+    }
+}
+.nigg2{
+    position: relative;
+    animation: nigg3 2s ease  infinite;
+    font-family: cursive;
+    animation-delay:0.5s ;
+    
+}
+@keyframes nigg3 {
+
+    0%{
+        top: 0px;
+    } 
+    50%{
+        top:20px;
+    }   
+    100%{
+
+        top:0px;
+    }
+}
+.ski{
+     width: 1280px;
+    height: 970px;
+    background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;   
+    position: relative;
+    
+}
+.skrill{
+    font-family: cursive;
+    
+}
+.line{
+    width: 5px;
+    height: 850px;
+    background: black;
+    border-radius: 50px;
+    margin-left: 625px;
+    animation: li 5s ease ;
+}
+@keyframes li {
+    from{
+        background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+
+    }
+    to{
+        background-color: black;
+    }
+    
+}
+.tml{
+        background: #222;
+        position: absolute;
+        color: white;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        top: 120px;
+        left:325px;
+        font-size: 25px;
+        font-family: cursive;
+        animation: ttml 3s ease ;
+        overflow: hidden;
+        z-index: 1;
+        box-shadow: 15px 15px 20px rgba(0,0,0,0.7);
+}
+.tml:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0px;
+    background: linear-gradient(to right,#34e89e, #0f3443);
+    transition: width 1.5s ease;
+    z-index: -1;
+}
+.tml:hover::before{
+    width: 100%;
+}
+
+
+@keyframes ttml {
+    from{
+        left: 0px;
+    }
+    to{
+        left:325px;
+    }
+    
+}
+
+.css{
+        background: #222;
+        position: absolute;
+        color: white;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        top: 250px;
+        left:630px;
+        font-size: 25px;
+        font-family: cursive;
+        animation: ccss 3.5s ease ;
+ overflow: hidden;
+        z-index: 1;
+        box-shadow: 15px 15px 20px rgba(0,0,0,0.7);
+
+}
+.css:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    right: 0;
+    background: linear-gradient(to right, #0f3443,#34e89e);
+    transition: width 1.5s ease;
+    z-index: -1;
+}
+.css:hover::before{
+    width: 100%;
+}
+@keyframes ccss {
+    from{
+        left: 925px;
+    }
+    to{
+        left:630px;
+    }
+    
+}
+.cir2{
+    width:10px;
+    position: absolute;
+    height:10px;
+    background: white;
+    border-radius: 50%;
+    border:5px solid black;
+    top:280px;
+    left:618px;
+        z-index: 2;
+
+
+}
+.js{
+        background: #222;
+        position: absolute;
+        color: white;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        top: 380px;
+        left:325px;
+        font-size: 25px;
+        font-family: cursive;
+        animation: tml 4s ease ;
+ overflow: hidden;
+        z-index: 1;
+               box-shadow: 15px 15px 20px rgba(0,0,0,0.7);
+
+}
+.js:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0px;
+    background: linear-gradient(to right,#34e89e, #0f3443);
+    transition: width 1.5s ease;
+    z-index: -1;
+}
+.js:hover::before{
+    width: 100%;
+}
+@keyframes tml {
+    from{
+        left: 0px;
+    }
+    to{
+        left:325px;
+    }
+    
+}
+.cir3{
+    width:10px;
+    position: absolute;
+    height:10px;
+    background: white;
+    border-radius: 50%;
+    border:5px solid black;
+    top:420px;
+    left:618px;
+        z-index: 2;
+
+}
+.py{
+        background: #222;
+        position: absolute;
+        color: white;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        top: 510px;
+        left:630px;
+        font-size: 25px;
+        font-family: cursive;
+        animation: ccss 4.5s ease ;
+               box-shadow: 15px 15px 20px rgba(0,0,0,0.7);
+
+overflow: hidden;
+        z-index: 1;
+}
+.py:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    right: 0;
+    background: linear-gradient(to right, #0f3443,#34e89e);
+    transition: width 1.5s ease;
+    z-index: -1;
+}
+.py:hover::before{
+    width: 100%;
+}
+@keyframes ccss {
+    from{
+        left: 925px;
+    }
+    to{
+        left:630px;
+    }
+    
+}
+.cir4{
+    width:10px;
+    position: absolute;
+    height:10px;
+    background: white;
+    border-radius: 50%;
+    border:5px solid black;
+    top:550px;
+    left:618px;
+        z-index: 2;
+
+
+}
+.bs{
+        background: #222;
+        position: absolute;
+        color: white;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        top: 640px;
+        left:325px;
+        font-size: 25px;
+               box-shadow: 15px 15px 20px rgba(0,0,0,0.7);
+
+        font-family: cursive;
+        animation: ttml 5s ease ;
+ overflow: hidden;
+        z-index: 1;
+}
+.bs:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    left: 0px;
+    background: linear-gradient(to right,#34e89e, #0f3443);
+    transition: width 1.5s ease;
+    z-index: -1;
+}
+.bs:hover::before{
+    width: 100%;
+}
+@keyframes ttml {
+    from{
+        left: 0px;
+    }
+    to{
+        left:325px;
+    }
+    
+}
+.cir5{
+    width:10px;
+    position: absolute;
+    height:10px;
+    background: white;
+    border-radius: 50%;
+    border:5px solid black;
+    top:680px;
+    left:618px;
+        z-index: 2;
+
+
+}
+.mo{
+        background: #222;
+        position: absolute;
+        color: white;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        top: 770px;
+        left:630px;
+        font-size: 25px;
+        font-family: cursive;
+        animation: moe 5.5s ease ;
+               box-shadow: 15px 15px 20px rgba(0,0,0,0.7);
+
+overflow: hidden;
+        z-index: 1;
+}
+.mo:before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    right: 0;
+    background: linear-gradient(to right, #0f3443,#34e89e);
+    transition: width 1.5s ease;
+    z-index: -1;
+}
+.mo:hover::before{
+    width: 100%;
+}
+@keyframes moe {
+    from{
+        left: 925px;
+    }
+    to{
+        left:630px;
+    }
+    
+}
+
+.cir6{
+    width:20px;
+    position: absolute;
+    height:20px;
+    background: white;
+    border-radius: 50%;
+    border:5px solid black;
+    top:930px;
+    left:613px;
+    z-index: 2;
+}
+.cir7{
+    width:10px;
+    position: absolute;
+    height:10px;
+    background: white;
+    border-radius: 50%;
+    border:5px solid black;
+    top:70px;
+    left:618px;
+    z-index: 2;
+}
+.cir8{
+    width:10px;
+    position: absolute;
+    height:10px;
+    background: white;
+    border-radius: 50%;
+    border:5px solid black;
+    top:810px;
+    left:618px;
+    z-index: 2;
+}
+.aspc a{
+    position: sticky; 
+  top: 0;
+}
+nav {
+  position: sticky;
+  top: 0;
+  background: #333;   /* default color */
+  transition: backgroundd 0.3s ease;
+  z-index: 1000;
+}
+
+nav.stuck {
+  background: #0f3443; /* new color when stuck */
+}
+.projexts{
+    width: 1280px;
+    height: 350px;
+    background: linear-gradient(132deg, rgb(65, 80, 95) 0.00%, rgb(36, 37, 38) 100.00%);
+    margin-left: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;   
+    position: relative;
+    
+
+}
+.pp{
+    display: flex;
+}
+ .project2 {
+  width: 450px;
+  height: 200px;
+  background-color: aliceblue;
+  margin-left: 130px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 20px rgba(0,0,0,0.7);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.project1{
+  width: 450px;
+  height: 200px;
+  background-color: aliceblue;
+  margin-left: 130px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 20px rgba(0,0,0,0.7);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+.project1:hover{
+  transform: skew(5deg, 5deg) scale(1.01) ;
+  box-shadow: 20px 20px 25px rgba(0,0,0,1);
+}
+.project2:hover {
+  transform: skew(-5deg, -5deg) scale(1.01) ;
+  box-shadow: 20px 20px 25px rgba(0,0,0,1); 
+}
+
+footer{
+    font-family: cursive;
+}
+.htmlimg{
+    position: absolute;
+    top: 150px;
+    left:608px;
+    z-index: 2;
+
+}
+.cssimg{
+    position: absolute;
+    top: 280px;
+    left:608px;
+    z-index: 2;
+
+}
+.jsimg{
+    position: absolute;
+    top: 410px;
+    left:608px;
+    z-index: 2;
+}
+.reacimg{
+    position: absolute;
+    top: 540px;
+    left:608px;
+    z-index: 2;
+}.bootimg{
+    position: absolute;
+    top: 670px;
+    left:608px;
+    z-index: 2;
+}
